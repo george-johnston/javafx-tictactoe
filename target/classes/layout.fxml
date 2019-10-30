@@ -19,47 +19,47 @@
             <Font size="24.0" />
          </font>
       </Text>
-      <TextField fx:id="field1" alignment="CENTER" editable="false" layoutX="150.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field1Click" prefHeight="200.0" prefWidth="200.0" text="X">
+      <TextField fx:id="field1" alignment="CENTER" editable="false" layoutX="150.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field1Click" prefHeight="200.0" prefWidth="200.0">
          <font>
             <Font size="96.0" />
          </font>
       </TextField>
-      <TextField fx:id="field2" alignment="CENTER" editable="false" layoutX="350.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field2Click" prefHeight="200.0" prefWidth="200.0" text="X">
+      <TextField fx:id="field2" alignment="CENTER" editable="false" layoutX="350.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field2Click" prefHeight="200.0" prefWidth="200.0">
          <font>
             <Font size="96.0" />
          </font>
       </TextField>
-      <TextField fx:id="field3" alignment="CENTER" editable="false" layoutX="551.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field3Click" prefHeight="200.0" prefWidth="200.0" text="X">
+      <TextField fx:id="field3" alignment="CENTER" editable="false" layoutX="551.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field3Click" prefHeight="200.0" prefWidth="200.0">
          <font>
             <Font size="96.0" />
          </font>
       </TextField>
-      <TextField fx:id="field4" alignment="CENTER" editable="false" layoutX="150.0" layoutY="250.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field4Click" prefHeight="200.0" prefWidth="200.0" text="X">
+      <TextField fx:id="field4" alignment="CENTER" editable="false" layoutX="150.0" layoutY="250.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field4Click" prefHeight="200.0" prefWidth="200.0">
          <font>
             <Font size="96.0" />
          </font>
       </TextField>
-      <TextField fx:id="field5" alignment="CENTER" editable="false" layoutX="350.0" layoutY="250.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field5Click" prefHeight="200.0" prefWidth="200.0" text="X">
+      <TextField fx:id="field5" alignment="CENTER" editable="false" layoutX="350.0" layoutY="250.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field5Click" prefHeight="200.0" prefWidth="200.0">
          <font>
             <Font size="96.0" />
          </font>
       </TextField>
-      <TextField fx:id="field6" alignment="CENTER" editable="false" layoutX="551.0" layoutY="250.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field6Click" prefHeight="200.0" prefWidth="200.0" text="X">
+      <TextField fx:id="field6" alignment="CENTER" editable="false" layoutX="551.0" layoutY="250.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field6Click" prefHeight="200.0" prefWidth="200.0">
          <font>
             <Font size="96.0" />
          </font>
       </TextField>
-      <TextField fx:id="field7" alignment="CENTER" editable="false" layoutX="150.0" layoutY="451.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field7Click" prefHeight="200.0" prefWidth="200.0" text="X">
+      <TextField fx:id="field7" alignment="CENTER" editable="false" layoutX="150.0" layoutY="451.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field7Click" prefHeight="200.0" prefWidth="200.0">
          <font>
             <Font size="96.0" />
          </font>
       </TextField>
-      <TextField fx:id="field8" alignment="CENTER" editable="false" layoutX="350.0" layoutY="451.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field8Click" prefHeight="200.0" prefWidth="200.0" text="X">
+      <TextField fx:id="field8" alignment="CENTER" editable="false" layoutX="350.0" layoutY="451.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field8Click" prefHeight="200.0" prefWidth="200.0">
          <font>
             <Font size="96.0" />
          </font>
       </TextField>
-      <TextField fx:id="field9" alignment="CENTER" editable="false" layoutX="551.0" layoutY="451.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field9Click" prefHeight="200.0" prefWidth="200.0" text="X">
+      <TextField fx:id="field9" alignment="CENTER" editable="false" layoutX="551.0" layoutY="451.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#field9Click" prefHeight="200.0" prefWidth="200.0">
          <font>
             <Font size="96.0" />
          </font>
