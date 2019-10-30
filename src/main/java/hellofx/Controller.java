@@ -5,8 +5,10 @@ import java.util.ArrayList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
@@ -21,7 +23,11 @@ public class Controller {
 							 {1,4,7}, {2,5,8}, {3,6,9},
 							 {1,5,9}, {3,5,7}};
 
-	ArrayList<String> movesPlayed = new ArrayList<>(10);
+	ArrayList<String> movesPlayed = new ArrayList<String>() {{
+		for (int i = 0; i < 10; i++) {
+			add("");
+		}
+	}};
 	
 
 	void markField(TextField field) {
@@ -34,8 +40,11 @@ public class Controller {
 			field.setText("O");
 			playerTurnText.setText(XTURN);
 		}
-//		String it = field.getId().substring(5);
-//		movesPlayed.set(Integer.parseInt(it), it);
+		String it = field.getId().substring(5);
+		System.out.println("field played: " + it);
+		movesPlayed.set(Integer.parseInt(it), (playerX ? "X" : "O"));
+		
+		System.out.println(movesPlayed.toString());
 		playerX = !playerX;
 	}
 
@@ -94,7 +103,10 @@ public class Controller {
 			}
 			if (streak == 3) {
 				// Winner logic
+				Alert alert = new Alert(AlertType.INFORMATION, "Player " + whoPlayed + " WINS!");
+				alert.showAndWait();
 				System.out.println(whoPlayed + " WINS!");
+				buttonClick(new ActionEvent());
 				break;
 			}
 		}
@@ -124,7 +136,7 @@ public class Controller {
 		TextField field = (TextField) event.getSource();
 		if (field.getText().equals("")) {
 			markField(field);
-			 //checkVictory(whoPlayed);
+			 checkVictory(whoPlayed);
 		}
 	}
 
@@ -134,7 +146,7 @@ public class Controller {
 		TextField field = (TextField) event.getSource();
 		if (field.getText().equals("")) {
 			markField(field);
-			// checkVictory(whoPlayed);
+			 checkVictory(whoPlayed);
 		}
 
 	}
@@ -145,7 +157,7 @@ public class Controller {
 		TextField field = (TextField) event.getSource();
 		if (field.getText().equals("")) {
 			markField(field);
-			// checkVictory(whoPlayed);
+			 checkVictory(whoPlayed);
 		}
 
 	}
@@ -156,7 +168,7 @@ public class Controller {
 		TextField field = (TextField) event.getSource();
 		if (field.getText().equals("")) {
 			markField(field);
-			// checkVictory(whoPlayed);
+			 checkVictory(whoPlayed);
 		}
 
 	}
@@ -167,7 +179,7 @@ public class Controller {
 		TextField field = (TextField) event.getSource();
 		if (field.getText().equals("")) {
 			markField(field);
-			// checkVictory(whoPlayed);
+			 checkVictory(whoPlayed);
 		}
 
 	}
@@ -178,7 +190,7 @@ public class Controller {
 		TextField field = (TextField) event.getSource();
 		if (field.getText().equals("")) {
 			markField(field);
-			// checkVictory(whoPlayed);
+			 checkVictory(whoPlayed);
 		}
 
 	}
@@ -189,7 +201,7 @@ public class Controller {
 		TextField field = (TextField) event.getSource();
 		if (field.getText().equals("")) {
 			markField(field);
-			// checkVictory(whoPlayed);
+			 checkVictory(whoPlayed);
 		}
 
 	}
@@ -200,7 +212,7 @@ public class Controller {
 		TextField field = (TextField) event.getSource();
 		if (field.getText().equals("")) {
 			markField(field);
-			// checkVictory(whoPlayed);
+			 checkVictory(whoPlayed);
 		}
 
 	}
@@ -211,7 +223,7 @@ public class Controller {
 		TextField field = (TextField) event.getSource();
 		if (field.getText().equals("")) {
 			markField(field);
-			// checkVictory(whoPlayed);
+			 checkVictory(whoPlayed);
 		}
 
 	}
