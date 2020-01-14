@@ -1,3 +1,6 @@
+# Branch winnerLogic 
+This branch had completed code to recognize a winning board for either player. I pushed it to a branch since it was completed just after the deadline
+
 # To run within Eclipse:
 1. Clone this repository into your Eclipse workspace.
 2. From Eclipse, File > Import > Existing Maven Projects.
