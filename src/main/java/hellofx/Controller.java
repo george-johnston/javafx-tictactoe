@@ -29,6 +29,7 @@ public class Controller {
 		}
 	}};
 	
+	
 
 	void markField(TextField field) {
 
@@ -88,9 +89,10 @@ public class Controller {
 			{ field7, field8, field9 }, { field1, field4, field7 }, { field2, field5, field8 },
 			{ field3, field6, field9 }, { field1, field5, field9 }, { field3, field5, field7 } };
 	
-	
+	//TextField test = this.field1;
 
 	void checkVictory(String whoPlayed) {
+		//System.out.println("test of field1: " + test.getText());
 
 		for (int[] win : winningArray) {
 			int streak = 0;
@@ -127,6 +129,9 @@ public class Controller {
 		}
 		playerX = true;
 		playerTurnText.setText(XTURN);
+		for (int i = 0; i < 10; i++) {
+			movesPlayed.set(i, "");
+		}
 
 	}
 
